@@ -1,5 +1,6 @@
 # Atividade1--HTML-CSS
 Atividade Softex Recife
+
 Crie exemplos de utilização das tags mais comuns na HTML:
 Metadados:A tag <meta> é usada em HTML para definir metadados, que são informações sobre o documento HTML que não são exibidas diretamente na página da web, mas fornecem informações adicionais sobre o documento.
 Separação de conteudo:A "separação de conteúdo" em HTML se refere ao princípio de dividir uma página da web em diferentes partes ou elementos, cada um com sua função específica e responsabilidade. 
