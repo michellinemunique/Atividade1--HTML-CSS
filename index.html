@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Metadados-->
+    <!--exemplo 1 de metadados:Para definir o conjunto de caracteres da página--> 
+    <meta charset="UTF-8">
+  
+    <!--exemplo 2 de metadados:Para especificar o autor da página.-->
+    <meta name="autor" content="nome do autor">
+    <title>Document</title>
+</head>
+<body>
+    <!--Separação de conteúdo-->
+    <!--Exemplo 1:para dividir o conteúdo da página.-->
+    <div id="cabecalho">
+        <h1>-Separação de conteudo</h1>
+        <p>Exemplo 1 de separação de conteudo</p>
+    </div>
+    <div id="Conteudo">
+        <p>Usando o div para dividir o conteudo da pagina</p>
+    </div>
+
+    <!--Texto
+    Exemplo 1:Utilizado para diferentes niveis de titulos-->
+    <h1>titulo principal</h1>
+    <h2>subtitulo</h2>
+
+    <!--Exemplo 2:Utilizado para criar paragrafos no texto-->
+    <p>Este é o primeiro paragrafo.</p>
+    <p>Este é o segundo paragrafo.</p>
+
+    <!--Imagem
+    Exemplo 1:inserindo uma imagem na pagina-->
+    <img src="imagem.jpg" alt="Descrição da imagem">
+
+    <!--Exemplo 2:inserindo outra imagem na pagina-->
+    <img src="Imagem2.jpg" alt="Descrição da imagem2">
+
+    <!--Formulário
+    Exemplo 1:o form pode ser utilizado para criação de formulario de pesquisa como produtos.-->
+    <form action="resultado-pesquisa.php" method="get">
+        <label for="termo">Digite o produto que deseja pesquisar:</label>
+        <input type="text" id="termo" name="termo" required>
+     <input type="submit" value="Pesquisar">
+    </form>
+
+    <!--Exemplo 2:também pode ser utilizado para criação de formulario de contato.-->
+        <form action="processar-formulario.php" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
